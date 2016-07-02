@@ -1,0 +1,65 @@
+*** Adventure Go! - Game Design ***
+Specifications:
+- Mobile Game (iOS / Android)
+
+Game Mechanics:
+- Party of adventurers that you send off to complete adventures
+- Timer ticks down until adventure is complete
+- On return; they gain experience and gear
+- Experience assignment is based on character role and what they did during the adventure. It is not explicitly assigned by the player
+- Gear however is assigned by the player and plays a role in determining in which areas a character gains experience
+- Game starts and character group has no members but player has some starting gold
+- Recruiting adventurers costs gold (higher the skill the greater the cost) but dismissal costs nothing
+- Adventurers come in and out of the tavern so the recruitment page is not static
+- Adventurers may die during adventures
+? Resurrection of dead adventurers
+? Adventurers age and their effectiveness decreases
+- Adventurer health also needs to be monitored and may need to treat illness/injury/fatigue
+- Damage can occur to individual body parts and loss of limbs can occur if enough damage is sustained
+- Combat, experience and skill up is based on the Rune Quest / Ultima system
+- Roles are assigned to adventurers (tank/healer/dps) these determine what the characters will do in an encounter
+- Adventure events and outcome are generated and not impacted by the player
+- Adventure outcome also has a story which is very detailed (inspiration from dwarf fortress)
+- The Adventure list is generated based on group score
+	? There will be 3 levels of adventures available; < = > OR there will be several in a list and assigned "danger scores"
+	+ Harder the adventure the greater the reward in experience, gold and items
+- Adventurer dynamics are important in relation to class and personality
+	+ Squabbles / betrayals may occur between characters with conflicting personalities
+	+ Decision points in the adventure are also determined by adventurer personalities
+
+Look and Feel:
+- Main screen is the inside of a tavern
+- Clicking on various objects in the tavern will bring up the separate menus
+
+Screens and Panels:
+- Main Screen
+- Recruitment and Dismissal Screen
+- Adventure Details Screen
+- Adventure Summary Screen
+- Inventory Screen
+- Character Screen
+	Personality
+	? Age
+	Stats
+	Health
+	Experience
+	Spells
+	Abilities
+	Equipment
+- Equipment Market Screen
+? Craftables Screen (Blacksmith / Alchemist / Wizard / Taylor)
+
+Adventure Simulation Mechanics:
+	An adventure consists of an difficulty (based upon adventurer group score), objective, encounters (traps, monsters, bosses), rewards, and decision points.
+
+Adventures:
+
+Character Types:
+
+Personality Types:
+
+Abilities:
+
+Spells:
+
+Equipment:
