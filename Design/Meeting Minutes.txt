@@ -54,4 +54,4 @@ Next Meeting: 07/14/16
 
 *** 08/09/16 ***
 We are walking through GitHub today. 
-
+Add prototype project to AdventureGo/Code/Prototype folder. Doesn't matter if not fully gameplay ready. 
