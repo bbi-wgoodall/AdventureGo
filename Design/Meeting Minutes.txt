@@ -1,0 +1,57 @@
+*** 06/24/16 ***
+1) Will's Game Ideas
+- Fat guy little house (barricade the home while fat guy gets fed and grows)
+- Genetic RTS, units are assigned roles and depending on how the perform in a timed combat scenario determines stat upgrades. Units left at end of battle breed into new sets of modified units. Game continues until objective met or run out of units.
+- Temp, we all know temp
+- Redo Ski Stunt Simulator
+2) Unity choice of engine
+3) Look into Escape Velocity as a comparison for Spucker. Either make it a more mobile game or more pc game with combat. 
+4) Will likes Innkeeper and Spucker
+5) First things first: create UI infrastructure i.e. Panel system (screen changes)
+6) Do Innkeeper first then Spucker because the former builds on the latter. Huge code reuse for future games. 
+7) Todo before next meeting:
+    - Spend some time with Unity and work through the tutorials
+    - Build Pong in Unity
+    - Then talk to Will again to get hints on using Unity.
+8) Use github as a repository
+9) Need to talk about a company name
+10) Next meeting date: 06/30/16
+
+*** 07/01/16 ***
+1) Resurrections cost gold that scales to how good the character was when he died
+2) Will suggested item loss at death that occurs randomly (possible low percentage)
+3) Gold is the renewable resource at the moment. Will look into other resources possibly at a later date
+4) Possible degradation of skills if player does not send adventurers on adventures
+5) Reward players for first login of day e.g. next mission exp doubles or completes in half the time etc. (this is still open for discussion)
+6) Playtest required for downtime mechanic where maintenance is required to treat injuries between adventures
+7) Play around with the idea of no core attributes but just a bucket of skills that rank up from 1-100 
+8) Start with core game flow with adventures and combat. Then look later at fluffing it up i.e. story based outcomes of encounters
+9) Personality Dynamics - Scope creepy and will look at implementing later on if at all
+10) Todo before next meeting:
+    - Come up with draft of adventurer skills
+    - Research through Runequest game mechanics
+    - Do some more Unity tutorials
+
+*** 07/07/16 ***
+Adventurer recruitment scales with average party level
+keep it simple
+
+*** 07/12/16 ***
+Decrease adventure to a reasonable amount in order to facilitate easier debugging and playing around with variables
+To ascertain whether skill increases should be performed on a per encounter basis or an adventure basis
+Need to figure out what happens when the player dies/loses an encounter
+When adding the group element to the game that there is an option to send adventurers to run separate adventures simulatenously where the benefit is that it may be harder to achieve success but they are gaining more rewards in less time. 
+Items to add at a later date can and not limited to necklace and rings for adventurer
+Save Boss objective encounters for future iterations
+Add adventurer description (based on skills) to the adventurer screen in a later iteration
+Adventure start timestamp is a variable stored in the adventurer class. The ticker is simply the difference between Datetime.Now and that timestamp which is displayed on screen.
+TODO:
+    GitHub setup at next meeting
+    Adrian: Prefab research and exposure in Unity
+    Will: To setup base starting point in Unity project
+Next Meeting: 07/14/16
+
+
+*** 08/09/16 ***
+We are walking through GitHub today. 
+
